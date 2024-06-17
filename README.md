@@ -10,7 +10,7 @@ Projede tek veri tabanı üzerinden iki taraflı yönetim mevcuttur(web-app) 1. 
 + c#<br/>
 + MySQL(wamp)<br/>
 + Login & Register<br/>
-+ [C# App](https://github.com/Tunc4532/Sahibine.WebUI)</br>
++ [PHP web](https://github.com/Tunc4532/Sahibine.WebUI)</br>
 + [Linkedln](https://www.linkedin.com/feed/update/urn:li:activity:7207359420815618048/)
 
 ## Images <br/>
