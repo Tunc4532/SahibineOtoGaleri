@@ -1,16 +1,15 @@
 # c# Ado.Net Sahibinden - Forms App
 
 ## Description <br/>
-.Net Core Api 8.0 sürümünü kullandığım bu projemde mimari tasarım paradigması olarak Onion Architecture üzerine kurlmuştur. İçerisinde CQRS, Mediator ve Repository gibi Design Patterns'ler
-kullanılmış olup bunun yanında uygulama içerisinde Jwt ile güvenlik konfigürasyonları sağlanan ve Admin Routune sahip olan user Dashboard kısmındaki fonksiyonları kullanabilektedir.
-Server'e request edip gelen responsedeki ıp adresi ile AnaSayfa'ya ulaşım sağlayan user ise seçimli menü ile bulunduğu lokasyonda aktif olan Araçlardan herhangi birisini kiralayabilmektedir,
-admine mesaj gönderebilir veya blog sayfasından son güncellemeleri takip edip yorum yapabilir.
+C# Ado.Net komutlarını kullanarak yaptığım bu projemde veri tabanı olarak MySQL kullandım.
+projenin amacı ise doğru bir şekilde giriş yapan kullanıcıların Araç ilanlarını yayınlamasıdır
+Projede tek veri tabanı üzerinden iki taraflı yönetim mevcuttur(web-app) 1. Tarafında Admin işlemlerini yapıldığı ve satış işlemlerinin takip edildiği c# form tarafıdır.
+2. Tarafında ise PHP programlama dili kullanılarak oluşturulmuş olan web tarafıdır her iki yönetim uygulamasıda MySql Veri tabanımdaki aynı alanlara bağlıdır(Optimizasyon)
 
 ## Tecnologies <br/>
 + c#<br/>
 + MySQL(wamp)<br/>
 + Login & Register<br/>
-+ Authorize & Otanticatin<br/>
 
 [Linkedln](https://www.linkedin.com/feed/update/urn:li:activity:7207359420815618048/)
 
